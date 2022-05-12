@@ -11,7 +11,7 @@ export default {
     methods : {
         fnDoGoogleLogin_Popup(){
             this.$store.dispatch('fnDoGoogleLogin_Popup');
-        }
+        },
     }
 }
 </script>

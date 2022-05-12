@@ -2,7 +2,8 @@
   <div id="app">
     <nav v-if="!fnGetAuthStatus">
       <router-link to="/">Home</router-link> |
-      <router-link to="/register">회원가입</router-link>
+      <router-link to="/register">회원가입</router-link> |
+      <router-link to="/main"> 메인페이지</router-link>
     </nav>
     <nav v-else>
       <router-link to="/main">Home</router-link> |
